@@ -36,6 +36,11 @@ page '/*.txt', layout: false
 
 # Turn this on if you want to make your url's prettier, without the .html
 activate :directory_indexes
+
+# Use relative URLs
+activate :relative_assets
+set :relative_links, true
+
 activate :deploy do |deploy|
   deploy.deploy_method = :git
 end

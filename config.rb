@@ -34,11 +34,25 @@ page '/*.txt', layout: false
 #   end
 # end
 
+# Turn this on if you want to make your url's prettier, without the .html
+activate :directory_indexes
+
+# Use relative URLs
+activate :relative_assets
+set :relative_links, true
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+end
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
+
+  # Minify HTML on build
+  activate :minify_html
 end

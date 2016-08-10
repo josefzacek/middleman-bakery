@@ -34,6 +34,8 @@ page '/*.txt', layout: false
 #   end
 # end
 
+# Turn this on if you want to make your url's prettier, without the .html
+activate :directory_indexes
 activate :deploy do |deploy|
   deploy.deploy_method = :git
 end

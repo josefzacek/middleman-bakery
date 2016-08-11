@@ -1,0 +1,13 @@
+nav
+  = link_to '/', class: 'brand' do
+    = tag :img, :src => "images/logo.png"
+
+  input#mobile-menu.show type="checkbox"
+  label.burger.pseudo.button for="mobile-menu" menu
+
+  .menu
+    = link_to 'Home', '/', class: 'button'
+    = link_to 'About', 'about', class: 'button'
+    = link_to 'Gallery', 'gallery', class: 'button'
+    = link_to 'Offers', 'offers', class: 'button'
+    = link_to 'Contact', 'contact', class: 'button'

@@ -12,4 +12,9 @@ html
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
-    == yield
+
+    = partial 'layouts/navbar'
+    
+    = yield
+
+    = partial 'layouts/footer'

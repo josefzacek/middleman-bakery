@@ -10,7 +10,6 @@ html
     == stylesheet_link_tag "https://cdn.jsdelivr.net/picnicss/6.1.4/picnic.min.css"
     == stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-rc.3/leaflet.css"
     == stylesheet_link_tag :site
-    == javascript_include_tag  "all"
 
   body class="#{page_classes}"
 
@@ -21,3 +20,5 @@ html
     = partial 'layouts/footer'
 
     == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-rc.3/leaflet.js"
+
+    == javascript_include_tag "all"

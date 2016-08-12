@@ -28,6 +28,11 @@ nav .brand img {
   text-shadow: 3px 1px #fff;
 }
 
+#map_holder {
+  height: 380px;
+  z-index: -1;
+}
+
 footer a {
   float: right;
   margin-right: 10px;

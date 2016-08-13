@@ -29,8 +29,15 @@ nav .brand img {
 }
 
 #map_holder {
-  height: 380px;
+  height: 280px;
   z-index: -1;
+}
+
+@media all and (min-width: 960px) {
+  #map_holder {
+    height: 380px;
+    z-index: 0;
+  }
 }
 
 footer a {

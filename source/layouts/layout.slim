@@ -22,4 +22,6 @@ html
 
     == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-rc.3/leaflet.js"
 
+    = javascript_include_tag "leafletjs" if (current_page.data.index_options == "contact-page")
+
     == javascript_include_tag "all"

@@ -49,6 +49,15 @@ nav .menu>* {
   color: #000;
   text-shadow: 3px 1px #fff;
 }
+/* about page */
+.aboutpage-tradition {
+  background: url('../images/about-wheat.jpg');
+  background-size: cover;
+}
+
+.aboutpage-tradition h3{
+  background-color: rgb(246, 246, 246);
+}
 
 #map_holder {
   height: 280px;

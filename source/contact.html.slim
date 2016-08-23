@@ -25,7 +25,7 @@ index_options: contact-page
 
     = form_tag 'https://getsimpleform.com/messages?form_api_token=8a1414a224e622757559d5f523ebf0e8', :method => 'POST' do
       - field_set_tag do
-        = hidden_field_tag 'redirect_to', value: 'https://josefzacek.github.io/middleman-spectre'
+        = hidden_field_tag 'redirect_to', value: 'https://josefzacek.github.io/middleman-spectre/thank-you'
         p = label_tag :name
             = text_field_tag :name, name: "name", id: "name", placeholder: "Your name", :autofocus=>true, required: true
         p = label_tag :email

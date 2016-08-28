@@ -1,22 +1,11 @@
 @charset "utf-8";
 
-.container {
-  margin: 0 10px 0 10px;
 html {
   background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kaushan Script', cursive;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.img-responsive {
-  max-width:100%;
-  height:auto;
 }
 
 .center-block {
@@ -27,18 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .light-grey {
   background: #f6f6f6;
-}
-
-nav {
-  position: static;
-}
-
-nav a {
-  color: #000;
-}
-
-nav .menu>* {
-  margin-right: 20px;
 }
 
 .home-page-billboard {

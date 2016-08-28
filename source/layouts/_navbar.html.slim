@@ -1,12 +1,18 @@
-nav
-  = link_to '/index.html', class: 'brand' do
-    = image_tag 'logo.png'
+.container.is-fluid
+  nav.nav.
+    .nav-left
+      = link_to '/index.html', class: 'nav-item is-brand' do
+        = image_tag 'logo.png', alt: 'Bakery'
 
-  input#mobile-menu.show type="checkbox"
-  label.burger.pseudo.button for="mobile-menu" menu
+    span#nav-toggle.nav-toggle
+      span
+      span
+      span
 
-  .menu
-    = link_to 'Home', '/index.html'
-    = link_to 'About', '/about.html'
-    = link_to 'Gallery', '/gallery.html'
-    = link_to 'Contact', '/contact.html'
+    #nav-menu.nav-right.nav-menu
+      = link_to 'Home', '/index.html', class: 'nav-item'
+      = link_to 'About', '/about.html', class: 'nav-item'
+      = link_to 'Gallery', '/gallery.html', class: 'nav-item'
+      = link_to 'Contact', '/contact.html', class: 'nav-item'
+      
+hr.is-marginless

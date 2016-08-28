@@ -9,22 +9,19 @@ index_options: contact-page
   h1.title.has-text-centered Contact Us
   #map_holder
 
-.flex.one.center
-  .two-third-600.half-900
-    h2.text-center Contact Us
-    hr
-    address.text-center
-      strong Your local Bakery
-      br
-      br
-      | 31 Henry Street, Dublin 1, Ireland
-      br
-      strong Phone: 
-      | 087 0525927
-      br
-      strong Email: 
-      = mail_to "info@josefzacek.com"
-    hr
+.section
+  .container
+    .columns
+      .column.is-half.is-offset-one-quarter
+        address.has-text-centered
+          h3.title Your local Bakery
+          | 31 Henry Street, Dublin 1, Ireland
+          br
+          strong Phone: 
+          | 087 0525927
+          br
+          strong Email: 
+          = mail_to "info@josefzacek.com"
 
     = form_tag 'https://getsimpleform.com/messages?form_api_token=8a1414a224e622757559d5f523ebf0e8', :method => 'POST' do
       - field_set_tag do

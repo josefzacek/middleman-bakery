@@ -40,11 +40,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #map_holder {
   height: 280px;
+  z-index: -1;
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 770px) {
   #map_holder {
     height: 380px;
+    z-index: 0;
   }
 }
 

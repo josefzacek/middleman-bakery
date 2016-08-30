@@ -1,73 +1,73 @@
 ---
 title: Gallery
 ---
+.container
+  .section
 
-h1.text-center Fresh Products Gallery
+    h1.title.has-text-centered Fresh Products Gallery
 
-.flex.one.center
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery1.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery1.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery2.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery2.jpg', data: { lightbox: 'gallery' }, class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery3.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery3.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery4.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery4.jpg', class: 'stack'
-    hr
+    span.icon
+      i.fa.fa-question-circle.fa-fw 
+    | Click on image to enlarge
 
-.flex.one.center
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery5.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery5.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery6.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery6.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery7.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery7.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery8.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery8.jpg', class: 'stack'
-    hr
-
-.flex.one.center
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery9.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery9.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery10.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery10.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery11.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery11.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery12.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery12.jpg', class: 'stack'
-    hr
-
-.flex.one.center
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery13.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery13.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery14.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery14.jpg', class: 'stack'
-    hr
-  .half.fifth-1000
-    =link_to '../images/gallery/gallery15.jpg', data: { lightbox: 'gallery' }
-      =image_tag 'gallery/gallery15.jpg', class: 'stack'
-    hr
+    .columns.is-multiline.is-mobile
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery1.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery1.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery2.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery2.jpg', data: { lightbox: 'gallery' }
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery3.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery3.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery4.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery4.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery5.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery5.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery6.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery6.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery7.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery7.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery8.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery8.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery9.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery9.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery10.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery10.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery11.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery11.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery12.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery12.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery13.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery13.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery14.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery14.jpg'
+        hr.is-marginless
+      .column.is-half-mobile.is-one-third-tablet.is-one-quarter-desktop
+        =link_to '../images/gallery/gallery15.jpg', data: { lightbox: 'gallery' }
+          =image_tag 'gallery/gallery15.jpg'
+        hr.is-marginless

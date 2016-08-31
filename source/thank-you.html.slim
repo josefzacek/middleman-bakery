@@ -1,12 +1,15 @@
 ---
 title: Thank You
 ---
-
-.flex.one.center
-  .two-third-600.half-900
-    p &nbsp;
-    p.text-center = image_tag 'logo.png'
-    hr
-    h1.text-center Thank You
-    p.text-center We have received your enquiry and will respond to you within 24 hours.
-    p.text-center = link_to 'Home', '/index.html', class: 'button'
+.section
+  .columns.is-desktop
+    .column.is-half.is-offset-one-quarter.has-text-centered
+      p &nbsp;
+      p &nbsp;
+      = link_to '/index.html' do
+        = image_tag 'logo.png', alt: 'Bakery'
+      hr
+      h1.title Thank You
+      p We have received your enquiry and will respond to you within 24 hours.
+      p &nbsp;
+      = link_to 'Home', '/index.html', class: 'button is-info'

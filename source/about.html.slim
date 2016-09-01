@@ -2,31 +2,39 @@
 title: About Us
 ---
 
-p
-.flex.one.two-900.light-grey
-  div.text-center
-    h2 About Us
-    p We are a family run business bringing homely, wholesome products into the heart of Dublin for over 97 years. We are all hands on with one goal….to deliver good food, freshly made from our bakery everyday.
-    p We are famous for our scones, croissants, muffins, breads, donuts, strudels &amp; much more so you’re welcome to drop by, say hi and take away what you like.
+p &nbsp;
+.columns.light-grey
+  .column.is-5.is-offset-1.has-text-centered
+    p &nbsp;
+    p &nbsp;
+    h2.title About Us
+    .content
+      p.subtitle.is-5 We are a family run business bringing homely, wholesome products into the heart of Dublin for over 97 years. We are all hands on with one goal….to deliver good food, freshly made from our bakery everyday.
+      p.subtitle.is-5 We are famous for our scones, croissants, muffins, breads, donuts, strudels &amp; much more so you’re welcome to drop by, say hi and take away what you like.
 
-  div
+  .column.is-5
     = image_tag 'about-croissant.png', class: 'img-responsive center-block'
 
-.flex.one.center.text-center.aboutpage-tradition
-  .half-900
-    h2 A TRADITION FOR ALMOST 100 YEARS
-    h3 We have been serving visitors, students, professionals from all over the world since our rich history began.
+.section.aboutpage-tradition
+  .container
+    .columns
+      .column.is-half.is-offset-one-quarter.has-text-centered
+        h2.title A TRADITION FOR ALMOST 100 YEARS
+        p &nbsp;
+        h3.subtitle We have been serving visitors, students, professionals from all over the world since our rich history began.
 
-.flex.one.two-900.light-grey
-  div
-    h2.text-center Why Should you pop to us ?
-    ul
-      li leading supplier of quality home baked products
-      li national winners at the bi-annual awards
-      li the local producer of a range of preservative free hand crafted products
-      li HACCP compliant and FSAI certified
-      li competitively priced
-      li open 7 days a week
+.columns.light-grey
+  .column.is-5.is-offset-1
+    h2.title.has-text-centered Why Should you pop to us ?
+    .content
+      p &nbsp;
+      ul
+        li leading supplier of quality home baked products
+        li national winners at the bi-annual awards
+        li the local producer of a range of preservative free hand crafted products
+        li HACCP compliant and FSAI certified
+        li competitively priced
+        li open 7 days a week
 
-  div
+  .column.is-5
     = image_tag 'about-breads.png', class: 'img-responsive center-block'

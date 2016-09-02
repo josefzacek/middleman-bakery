@@ -42,12 +42,20 @@ nav .menu>* {
 .home-page-billboard {
   background: url('../images/homepage-banner.jpg') no-repeat top center;
   background-size:cover;
+.owl-carousel {
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: -1;
 }
 
 .home-page-billboard h1, .home-page-billboard h2 {
   text-align: center;
   color: #000;
   text-shadow: 3px 1px #fff;
+.owl-carousel img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 /* about page */
 .aboutpage-tradition {
@@ -67,6 +75,9 @@ nav .menu>* {
 @media all and (min-width: 960px) {
   #map_holder {
     height: 380px;
+    z-index: 0;
+  }
+  .owl-carousel {
     z-index: 0;
   }
 }

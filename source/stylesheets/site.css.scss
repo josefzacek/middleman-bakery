@@ -1,20 +1,11 @@
 @charset "utf-8";
 
-.container {
-  margin: 0 10px 0 10px;
+html {
+  background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kaushan Script', cursive;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.img-responsive {
-  max-width:100%;
-  height:auto;
 }
 
 .center-block {
@@ -54,10 +45,12 @@ nav .menu>* {
 .aboutpage-tradition {
   background: url('../images/about-wheat.jpg');
   background-size: cover;
+  margin-bottom: 20px;
 }
 
 .aboutpage-tradition h3{
   background-color: rgb(246, 246, 246);
+  padding: 11px 0px;
 }
 
 #map_holder {
@@ -65,7 +58,7 @@ nav .menu>* {
   z-index: -1;
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 770px) {
   #map_holder {
     height: 380px;
     z-index: 0;

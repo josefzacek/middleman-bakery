@@ -3,13 +3,13 @@ html
   head
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
     meta charset="utf-8"
-    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
+    meta content="width=device-width,initial-scale=1.0" name="viewport"
 
     title = current_page.data.title || "The Middleman"
 
     = favicon_tag 'favicon.ico'
     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Kaushan+Script"
-    = stylesheet_link_tag "https://cdn.jsdelivr.net/picnicss/6.1.4/picnic.min.css"
+    = stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css"
     = stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-rc.3/leaflet.css"
     = stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
     = stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
@@ -20,8 +20,7 @@ html
 
     = partial 'layouts/navbar'
     
-    .container
-      = yield
+    = yield
 
     = partial 'layouts/footer'
 
@@ -30,4 +29,5 @@ html
     = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"
     = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
     = javascript_include_tag "leafletjs" if (current_page.data.index_options == "contact-page")
+    = javascript_include_tag "https://use.fontawesome.com/660e490042.js"
     = javascript_include_tag "all"

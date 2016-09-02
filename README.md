@@ -1,4 +1,4 @@
-# middleman-spectre
-Static site build using Middleman static site generator and  Spectre CSS-Framework
+# middleman-bakery
+Static site built using [Middleman](https://middlemanapp.com/) static site generator and [Bulma CSS](http://bulma.io/)
 
-Live version available at [https://josefzacek.github.io/middleman-spectre/](https://josefzacek.github.io/middleman-spectre/)
+Live version available at [bakery.josefzacek.com](http://bakery.josefzacek.com/)

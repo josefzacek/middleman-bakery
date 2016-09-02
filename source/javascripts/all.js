@@ -1,10 +1,9 @@
-jQuery(document).ready(function ($) {
-
-  var $toggle = $('#nav-toggle');
-  var $menu = $('#nav-menu');
-
-  $toggle.click(function() {
-    $(this).toggleClass('is-active');
-    $menu.toggleClass('is-active');
+$(document).ready(function() {
+ 
+  $(".owl-carousel").owlCarousel({
+    slideSpeed : 300,
+    autoPlay : 3000,
+    singleItem:true
   });
+ 
 });

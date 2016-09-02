@@ -18,15 +18,28 @@ h1, h2, h3, h4, h5, h6 {
   background: #f6f6f6;
 }
 
-.home-page-billboard {
-  background: url('../images/homepage-banner.jpg') no-repeat top center;
-  background-size:cover;
+nav {
+  position: static;
 }
 
-.home-page-billboard h1, .home-page-billboard h2 {
-  text-align: center;
+nav a {
   color: #000;
-  text-shadow: 3px 1px #fff;
+}
+
+nav .menu>* {
+  margin-right: 20px;
+}
+
+.owl-carousel {
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.owl-carousel img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 /* about page */
 .aboutpage-tradition {
@@ -48,6 +61,9 @@ h1, h2, h3, h4, h5, h6 {
 @media all and (min-width: 770px) {
   #map_holder {
     height: 380px;
+    z-index: 0;
+  }
+  .owl-carousel {
     z-index: 0;
   }
 }

@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".owl-carousel").owlCarousel({slideSpeed:300,autoPlay:3e3,singleItem:!0})});
+jQuery(document).ready(function(e){var l=e("#nav-toggle"),a=e("#nav-menu");l.click(function(){e(this).toggleClass("is-active"),a.toggleClass("is-active")}),e(".owl-carousel").owlCarousel({slideSpeed:300,autoPlay:3e3,singleItem:!0})});

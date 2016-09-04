@@ -32,4 +32,7 @@ index_options: contact-page
             p.control = email_field_tag :email, name: "email", id: "email", placeholder: "Your email", required: true, class: 'input'
             = label_tag :message, class: 'label'
             p.control = text_area_tag :message, name: "message", id: "message", placeholder: "Your message", rows: 6, required: true, class: 'textarea'
-            p.control.is-pulled-right = submit_tag "Send", class: 'button is-outlined'
+            button.control.is-pulled-right.button.is-outlined type="submit"
+              | Send &nbsp;<i class="fa fa-paper-plane"></i> 
+
+

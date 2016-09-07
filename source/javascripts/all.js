@@ -7,11 +7,24 @@ jQuery(document).ready(function ($) {
     $(this).toggleClass('is-active');
     $menu.toggleClass('is-active');
   });
- 
-  $(".owl-carousel").owlCarousel({
-    slideSpeed : 300,
-    autoPlay : 3000,
-    singleItem:true
+
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    smartSpeed: 1500,
+    responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:1
+        },
+        1000:{
+          items:1
+        }
+    }
   });
  
 });

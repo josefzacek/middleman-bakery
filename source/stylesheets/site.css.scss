@@ -10,23 +10,27 @@ h1, h2, h3, h4, h5, h6 {
 
 .center-block {
   display:block;
-  margin-right:auto;
   margin-left:auto;
+  margin-right:auto;
 }
 
 .light-grey {
   background: #f6f6f6;
 }
 
+.nav-item img {
+  max-height: 40px;
+}
+
 .owl-carousel {
-  max-width: 1440px;
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 .owl-carousel img{
   display: block;
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 /* about page */
 .aboutpage-tradition {
@@ -37,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .aboutpage-tradition h3{
   background-color: rgb(246, 246, 246);
-  padding: 11px 0px;
+  padding: 11px 0;
 }
 
 #map_holder {

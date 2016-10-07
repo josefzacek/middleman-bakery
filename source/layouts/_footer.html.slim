@@ -1,5 +1,7 @@
 hr.is-marginless
 footer
-  p.has-text-right
-  br = link_to 'Handcoded by josefzacek.com', 'http://josefzacek.com', target: 'blank', title: 'josefzacek.com'
-  br
+  .container.is-fluid
+    br
+    p 
+      = link_to 'Status', 'http://statusbakery.josefzacek.com/', class: 'is-pulled-left',  target: 'blank', title: 'Status page'
+      = link_to 'Handcoded by josefzacek.com', 'http://josefzacek.com', class: 'is-pulled-right', target: 'blank', title: 'josefzacek.com'
